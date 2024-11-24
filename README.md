@@ -9,9 +9,10 @@ dark mode themes. I'm maybe in a minority on this one, but still.
 ## Easy initial setup
 
 ```
-$ mkdir ~/.config/nvim
-$ cd ~/.config/nvim
+$ cd ~/.config
+$ rm -f -R nvim
 $ git clone https://github.com/thorhop/sunburned
+$ mv sunburned nvim
 ```
 
 That's it. You're now sunburned.
