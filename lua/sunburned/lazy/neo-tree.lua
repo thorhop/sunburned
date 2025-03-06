@@ -44,6 +44,7 @@ return {
           { source = "filesystem" },
           { source = "buffers" },
           { source = "document_symbols" },
+          { source = "git_Status" },
         },
         tabslayout = "center",
       },

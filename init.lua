@@ -1,2 +1,1 @@
 require('sunburned')
-ColorMyPencils('modus')
