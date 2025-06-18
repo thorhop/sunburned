@@ -9,8 +9,6 @@ return {
   config = function()
     require("auto-session").setup {
       log_level = "error",
-      auto_session_enable_last_session = true,
-      auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/"},
       --pre_save_cmds = { 'Neotree close' },
       --post_restore_cmds = { 'Neotree filesystem show' },
       --neotree_cmds = {RestoreNeoTree()}
